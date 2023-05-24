@@ -1,4 +1,4 @@
-$excludeList = "admin", "cteadmin", "CTEAdmin", "Admin", "Damian D"
+$excludeList = "admin", "cteadmin", "CTEAdmin", "Admin"
 
 $input = Read-Host 'Please input an account you would like to keep, or type N to ignore'
 if (($input -ne 'N') -or ($input -ne ' ')) {
